@@ -1,10 +1,12 @@
 import React from 'react';
-import {Outlet} from "react-router-dom"
+import {Link} from "react-router-dom"
 const Home = () => {
     return (
         <div>
+          
+            <h2>Welcome to my <Link to="/pets">pets </Link></h2>
+
            
-            <Outlet />
         </div>
     );
 }
